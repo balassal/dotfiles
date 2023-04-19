@@ -1,3 +1,10 @@
 #!/bin/sh
 nitrogen --restore &
-# picom --config ~/.config/qtile/picom.conf &
+picom -b --experimental-backends &
+bash ~/.config/conky/startup &
+nm-applet &
+# blueman-applet &
+# flameshot &
+dunst &
+# lxsession &
+# polybar main &

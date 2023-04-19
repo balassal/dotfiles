@@ -2,7 +2,7 @@
 This repository contains configuration files
 
 ## Qtile
-Istalled packages: alacritty, nitrogen, rofi, neovim, fish, qtile-extras, exa, peco  
+Istalled packages: alacritty, nitrogen, rofi, neovim, fish, qtile-extras, exa, peco, dunst, picom  
 Fonts: Hack Nerd Font, JetBrainsMono Nerd Font  
 Themes: Everforest Gtk Themes, Gruvbox Gtk Themes  
 Icons: Vimix  

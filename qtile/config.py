@@ -98,6 +98,13 @@ keys = [
     Key([mod], "b", lazy.spawn(browser), desc="Launch Browser"),
     Key([mod], "Space", lazy.spawn(launcher), desc="Launcher"),
     Key([mod], "n", lazy.spawn(filemanager), desc="Launch Thunar"),
+
+    # Rofi Integration
+    Key([mod], "r", lazy.spawn("rofi -show drun"), desc="Launch an application."),
+    Key(["mod1"], "Tab", lazy.spawn("rofi -show window"), desc="Switch between windows."),
+
+    # Poweroff Menu
+    Key([mod], "p", lazy.spawn(os.path.expanduser("~/.config/qtile/power_menu.sh")), desc="Launch the power menu."),
 ]
 
 groups = [Group(i, layout="monadtall") for i in "12345"]
@@ -226,7 +233,7 @@ bar_widgets = [
         foreground=colors_black
     ),
     widget.Clock(
-        format = '%I:%M %p',
+        format = '%H:%M %p',
         background=colors_blue,
         foreground=colors_black,
         **powerline1
