@@ -188,20 +188,20 @@ bar_widgets = [
     #     foreground="#abb2bf",
     #     **powerline1
     # ),
-    widget.TextBox(
-        fontsize = 15,
-        text = "󰍛",
-        background="#51afef",
-        foreground="#282c34"
-    ),
-    widget.Memory(
-        measure_mem='G', 
-        background="#51afef", 
-        foreground="#282c34", 
-        format = '{MemUsed:.1f}G/{MemTotal:.1f}G',
-        mouse_callbacks = {'Button1': lazy.spawn(terminal + ' -e htop')},
-        **powerline1
-    ),
+    # widget.TextBox(
+    #     fontsize = 15,
+    #     text = "󰍛",
+    #     background="#51afef",
+    #     foreground="#282c34"
+    # ),
+    # widget.Memory(
+    #     measure_mem='G', 
+    #     background="#51afef", 
+    #     foreground="#282c34", 
+    #     format = '{MemUsed:.1f}G/{MemTotal:.1f}G',
+    #     mouse_callbacks = {'Button1': lazy.spawn(terminal + ' -e htop')},
+    #     **powerline1
+    # ),
     widget.TextBox(
         fontsize = 15,
         text = "墳",
@@ -213,18 +213,18 @@ bar_widgets = [
         foreground=colors_black,
         **powerline1
     ),
-    widget.TextBox(
-        fontsize = 15,
-        text = "直",
-        background=colors_magenta,
-        foreground=colors_black,
-    ),
-    widget.Net(
-        background=colors_magenta,
-        foreground=colors_black,
-        format='{down}',
-        **powerline1
-    ),
+    # widget.TextBox(
+    #     fontsize = 15,
+    #     text = "直",
+    #     background=colors_magenta,
+    #     foreground=colors_black,
+    # ),
+    # widget.Net(
+    #     background=colors_magenta,
+    #     foreground=colors_black,
+    #     format='{down}',
+    #     **powerline1
+    # ),
     widget.TextBox(
         fontsize = 15,
         text = "",
@@ -239,10 +239,7 @@ bar_widgets = [
     ),
     widget.Systray(
         background=colors_background,
-    ),
-    widget.QuickExit(
-        background="#181825",
-        foreground="#e06c75",
+        **powerline1
     ),
     widget.CurrentLayoutIcon(
         custom_icon_paths=[os.path.expanduser("~/.config/qtile/icons")]
