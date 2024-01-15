@@ -4,3 +4,4 @@ nm-applet &
 # blueman-applet &
 flameshot &
 dunst &
+variety &
