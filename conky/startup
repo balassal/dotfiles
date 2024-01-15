@@ -1,3 +1,0 @@
-conky -c ~/.config/conky/gotham
-conky -c ~/.config/conky/process_panel
-# conky -c ~/.config/conky/network_panel

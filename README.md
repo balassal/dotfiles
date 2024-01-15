@@ -1,14 +1,33 @@
 # dotconfig
 This repository contains configuration files
 
-## Qtile
-Istalled packages: alacritty, nitrogen, rofi, neovim, fish, qtile-extras, exa, peco, dunst, picom  
-Fonts: Hack Nerd Font, JetBrainsMono Nerd Font  
-Themes: Everforest Gtk Themes, Gruvbox Gtk Themes  
-Icons: Vimix  
+## installing
+```bash
+git clone https://github.com/balassal/dotconfig
+cd dotconfig
+chmod +x install.sh
+./install.sh
+```
 
-## Fish
-Plugins: fisher   
+## installed packages (arch)
 
-## Neovim
-AstroNvim  
+- qtile
+- alacritty 
+- nitrogen 
+- rofi 
+- neovim 
+- zsh 
+- exa 
+- dunst 
+- thunar 
+- thunar-archive-plugin
+- ttf-roboto 
+- ttf-jetbrains-mono-nerd
+
+## installed packages (aur)
+
+- qtile-extras
+- brave-bin
+- variety 
+- visual-studio-code-bin 
+- flameshot
