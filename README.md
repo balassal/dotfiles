@@ -1,4 +1,4 @@
-# dotconfig
+# dotfiles
 This repository contains configuration files
 
 ## installing
